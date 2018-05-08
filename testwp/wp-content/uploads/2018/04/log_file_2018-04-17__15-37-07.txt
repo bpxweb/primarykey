@@ -1,0 +1,115 @@
+
+---Downloaded files---
+The import files for: Default Demo Content were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://primarykey.me
+Data file = /home/primarykey/domains/primarykey.me/public_html/wp-content/plugins/idyllic-demo-importer/inc/default/idyllic.wordpress.xml
+Widget file = /home/primarykey/domains/primarykey.me/public_html/wp-content/plugins/idyllic-demo-importer/inc/default/idyllic-widgets.wie
+Customizer file = /home/primarykey/domains/primarykey.me/public_html/wp-content/plugins/idyllic-demo-importer/inc/default/idyllic-export.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Main Sidebar : 
+
+Search - No Title - Widget already exists
+Text - No Title - Widget already exists
+Recent Posts With Thumbnails - Recent Posts - Widget already exists
+Meta - No Title - Widget already exists
+Tag Cloud - Tags - Widget already exists
+
+Top Header Info : 
+
+Text - No Title - Imported
+
+Side Menu : 
+
+Text - No Title - Widget already exists
+Recent Posts With Thumbnails - Recent Posts - Widget already exists
+Image - Idyllic Other Layouts - Widget already exists
+Image - No Title - Widget already exists
+Image - No Title - Widget already exists
+Image - No Title - Widget already exists
+
+Contact Page Sidebar : 
+
+Text - Our Address - Widget already exists
+
+Iframe Code For Google Maps : 
+
+Text - No Title - Widget already exists
+
+WooCommerce Sidebar : 
+
+Filter Products by Rating - Average rating - Widget already exists
+Cart - Cart - Widget already exists
+Filter Products by Price - Filter by price - Widget already exists
+Active Product Filters - Active filters - Widget already exists
+Product Categories - Product categories - Widget already exists
+Products - Products - Widget already exists
+Product Search - No Title - Widget already exists
+Product Tag Cloud - Product tags - Widget already exists
+Recent Viewed Products - Recently viewed products - Widget already exists
+Recent Product Reviews - Recent reviews - Widget already exists
+Products by Rating - Top rated products - Widget already exists
+
+Footer Column 1 : 
+
+Text - About Idyllic - Widget already exists
+
+Footer Column 2 : 
+
+Categories - Category - Widget already exists
+
+Footer Column 3 : 
+
+Recent Posts - Recent posts - Widget already exists
+
+Footer Column 4 : 
+
+Text - Contact Info - Widget already exists
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+
