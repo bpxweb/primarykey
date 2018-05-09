@@ -59,6 +59,12 @@ Ajax Contact Form
                     $('#message-field').addClass('has-error');
                     $('#message-field').find('.col-lg-10').append('<span class="help-block">' + data.errors.message + '</span>');
                 }
+
+                if (data.errors.grecaptcha) {
+                    $('#message-field').addClass('has-error');
+                    $('#message-field').find('.col-lg-10').append('<span class="help-block">' + data.errors.grecaptcha + '</span>');
+                }
+
             } else {
                 // display success message
                 $form.html('<div class="alert alert-success">' + data.message + '</div>');

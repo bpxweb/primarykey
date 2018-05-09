@@ -36,12 +36,9 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
         $response=json_decode(file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=6LeatlUUAAAAAMcI2Bb37x_dHO3W05gq2S2m28Gt&response=".$captcha."&remoteip=".$_SERVER['REMOTE_ADDR']), true);
         if($response['success'] == false)
         {
-            $errors['message'] = 'You are spammer ! Get the @$%K out';
+            $errors['grecaptcha'] = 'You are spammer ! Get the @$%K out';
           //echo '<h2>You are spammer ! Get the @$%K out</h2>';
         }
-        else
-        {
-          //echo '<h2>Thanks for posting comment.</h2>';
         
     // if there are any errors in our errors array, return a success boolean or false
     if (!empty($errors)) {
@@ -92,7 +89,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $data['message'] = 'Congratulations. Your message has been sent successfully';
             }
 
-        }
+
         
     }
     // return all our data to an AJAX call
