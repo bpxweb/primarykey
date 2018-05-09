@@ -49,7 +49,7 @@
                             <input type="text" id="form-subject" name="form-subject" class="form-control" placeholder="Message topic">
                             <!--name มันซ้ำ เปลี่ยนเป็น type อันแรก-->           
                              <textarea type="message" id="form-message" name="form-message" rows="5" class="form-control" placeholder="Your message" required="required"></textarea>
-                             <div class="g-recaptcha" data-sitekey="6LeatlUUAAAAAL4am4SXtq1KedNC72HG7Mv5CsPI"></div>
+                             <div id="form-g-recaptcha" name="form-g-recaptcha" class="g-recaptcha" data-sitekey="6LeatlUUAAAAAL4am4SXtq1KedNC72HG7Mv5CsPI"></div>
                             <button type="sibmit" class="button">Submit</button>
                         </form>
                     </div>
