@@ -38,7 +38,7 @@ $mail->SMTPAuth = true;
 $mail->Host = 'mail.primarykey.me'; // SMTP server
 $mail->Port = 587; // พอร์ท
 $mail->Username = "primarykey"; // username
-$mail->Password = "EsrG!4_6mS"; // password
+$mail->Password = "YHmqUQ_KWY8Z_!y"; // password
 $mail->SetFrom('primarykey@primarykey.me', 'wittbuyt');
 $mail->AddReplyTo('primarykey@primarykey.me', 'wittbuyt');
 $mail->Subject = 'ติดต่อจากลูกค้า : '. $_POST[‘fullname’].' ติดต่อ : '.$_POST[‘tel’];//รับค่า POST

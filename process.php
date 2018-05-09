@@ -23,6 +23,24 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (empty($message)) {
         $errors['message'] = 'Message is required.';
     }
+
+    //check recaptcha
+    if(isset($_POST['g-recaptcha-response']))
+          $captcha=$_POST['g-recaptcha-response'];
+
+        if(!$captcha){
+          echo '<h2>Please check the the captcha form.</h2>';
+          exit;
+        }
+        $response=json_decode(file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=6LeatlUUAAAAAMcI2Bb37x_dHO3W05gq2S2m28Gt&response=".$captcha."&remoteip=".$_SERVER['REMOTE_ADDR']), true);
+        if($response['success'] == false)
+        {
+          echo '<h2>You are spammer ! Get the @$%K out</h2>';
+        }
+        else
+        {
+          echo '<h2>Thanks for posting comment.</h2>';
+        }
     // if there are any errors in our errors array, return a success boolean or false
     if (!empty($errors)) {
         $data['success'] = false;
