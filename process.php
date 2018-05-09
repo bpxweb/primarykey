@@ -25,8 +25,8 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     //check recaptcha
-    if(isset($_POST['g-recaptcha-response']))
-          $captcha=$_POST['g-recaptcha-response'];
+    if(isset($_POST['grecaptcha'])) {
+          $captcha=$_POST['grecaptcha'];
 
         if(!$captcha){
             $errors['message'] = 'Please check the the captcha form.';
@@ -39,6 +39,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
             $errors['grecaptcha'] = 'You are spammer ! Get the @$%K out';
           //echo '<h2>You are spammer ! Get the @$%K out</h2>';
         }
+    }
         
     // if there are any errors in our errors array, return a success boolean or false
     if (!empty($errors)) {
