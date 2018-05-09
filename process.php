@@ -1,15 +1,11 @@
 <?php
 // Configure your Subject Prefix and Recipient here
-//$subjectPrefix = '[Contact via website]';
-$emailTo       = 'primarykey@primarykey.me';
-
 require_once('PHPMailer_v5.0.2/class.phpmailer.php');
 $mail = new PHPMailer();
+$subjectPrefix = '[Contact via website]';
+//$emailTo       = '<patpjr@gmail.com>';
 $errors = array(); // array to hold validation errors
 $data   = array(); // array to pass back data
-
-
-
 if($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name    = stripslashes(trim($_POST['name']));
     $email   = stripslashes(trim($_POST['email']));
@@ -38,6 +34,17 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
             <strong>Email: </strong>'.$email.'<br />
             <strong>Message: </strong>'.nl2br($message).'<br />
         ';
+        $headers  = "MIME-Version: 1.1" . PHP_EOL;
+        $headers .= "Content-type: text/html; charset=utf-8" . PHP_EOL;
+        $headers .= "Content-Transfer-Encoding: 8bit" . PHP_EOL;
+        $headers .= "Date: " . date('r', $_SERVER['REQUEST_TIME']) . PHP_EOL;
+        $headers .= "Message-ID: <" . $_SERVER['REQUEST_TIME'] . md5($_SERVER['REQUEST_TIME']) . '@' . $_SERVER['SERVER_NAME'] . '>' . PHP_EOL;
+        $headers .= "From: " . "=?UTF-8?B?".base64_encode($name)."?=" . "<$email>" . PHP_EOL;
+       //$headers .= "Return-Path: $emailTo" . PHP_EOL;
+        $headers .= "Reply-To: $email" . PHP_EOL;
+        $headers .= "X-Mailer: PHP/". phpversion() . PHP_EOL;
+        $headers .= "X-Originating-IP: " . $_SERVER['SERVER_ADDR'] . PHP_EOL;
+        //mail($emailTo, "=?utf-8?B?" . base64_encode($subject) . "?=", $body, $headers);
 
         $mail->CharSet = 'utf-8';
         $mail->IsSMTP();
@@ -47,36 +54,25 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Port = 587; // พอร์ท
         $mail->Username = "primarykey"; // username
         $mail->Password = "EsrG!4_6mS"; // password
-        $mail->SetFrom('primarykey@primarykey.me', 'Primarykey Wesite Creative');
-        $mail->AddReplyTo('primarykey@primarykey.me', 'Primarykey Wesite Creative');
-        $mail->Subject = $subject;
+        $mail->SetFrom('primarykey@primarykey.me', 'Primary Key Website Creative');
+        $mail->AddReplyTo('primarykey@primarykey.me', 'Primary Key Website Creative');
+        $mail->Subject = $subject.' ติดต่อจากลูกค้า : '. $name;//รับค่า POST
 
-        $mail->MsgHTML($body);
+        $mail->MsgHTML($body.$headers);
+
         $mail->AddAddress($email, $name); // ผู้รับคนที่หนึ่ง
         $mail->AddAddress('primarykey@primarykey.me', $name); // ผู้รับคนที่สอง //รับค่า POST
-
-        if(!$mail->Send()) {
-        echo 'Mailer Error: ' . $mail->ErrorInfo;
-    } else {
-echo 'Message sent!';
-}
-
-        /***$headers  = "MIME-Version: 1.1" . PHP_EOL;
-        $headers .= "Content-type: text/html; charset=utf-8" . PHP_EOL;
-        $headers .= "Content-Transfer-Encoding: 8bit" . PHP_EOL;
-        $headers .= "Date: " . date('r', $_SERVER['REQUEST_TIME']) . PHP_EOL;
-        $headers .= "Message-ID: <" . $_SERVER['REQUEST_TIME'] . md5($_SERVER['REQUEST_TIME']) . '@' . $_SERVER['SERVER_NAME'] . '>' . PHP_EOL;
-        $headers .= "From: " . "=?UTF-8?B?".base64_encode($name)."?=" . "<$email>" . PHP_EOL;
-        $headers .= "Return-Path: $emailTo" . PHP_EOL;
-        $headers .= "Reply-To: $email" . PHP_EOL;
-        $headers .= "X-Mailer: PHP/". phpversion() . PHP_EOL;
-        $headers .= "X-Originating-IP: " . $_SERVER['SERVER_ADDR'] . PHP_EOL;*/
+            if(!$mail->Send()) {
+                //echo 'Mailer Error: ' . $mail->ErrorInfo;
+                $data['success'] = false;
+                $data['errors']  = $errors.'Mailer Error: ' . $mail->ErrorInfo;
+            } else {
+                //echo 'Message sent!';
+                $data['success'] = true;
+                $data['message'] = 'Congratulations. Your message has been sent successfully';
+            }
 
         
-        //mail($emailTo, "=?utf-8?B?" . base64_encode($subject) . "?=", $body, $headers);
-        
-        $data['success'] = true;
-        $data['message'] = 'Congratulations. Your message has been sent successfully';
     }
     // return all our data to an AJAX call
     echo json_encode($data);
