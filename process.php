@@ -11,7 +11,6 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email   = stripslashes(trim($_POST['email']));
     $subject = stripslashes(trim($_POST['subject']));
     $message = stripslashes(trim($_POST['message']));
-    $captcha = $_POST['grecaptcha'];
     if (empty($name)) {
         $errors['name'] = 'Name is required.';
     }
@@ -25,13 +24,9 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
         $errors['message'] = 'Message is required.';
     }
 
-
-    if (empty($captcha)) {
-        $errors['grecaptcha'] = 'Recaptcha is required.';
-    }
     //check recaptcha
     if(isset($_POST['grecaptcha'])) {
-          
+          $captcha=$_POST['grecaptcha'];
 
         if(!$captcha){
             $errors['message'] = 'Please check the the captcha form.';
@@ -45,7 +40,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
           //echo '<h2>You are spammer ! Get the @$%K out</h2>';
         }
     }
-
+        
     // if there are any errors in our errors array, return a success boolean or false
     if (!empty($errors)) {
         $data['success'] = false;
