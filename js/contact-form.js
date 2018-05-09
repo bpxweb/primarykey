@@ -36,7 +36,7 @@ Ajax Contact Form
             data : formData,
             dataType : 'json',
             encode : true
-        }).done(function pm_mailer(data) {
+        }).done(function (data) {
             // handle errors
             if (!data.success) {
                 if (data.errors.name) {
