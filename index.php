@@ -4,7 +4,39 @@
 include 'header.php' ;
 
 ?>
-
+    <!--Slider Header-area-->
+    <header class="header-area overlay full-height relative v-center" id="home-page">
+        <div class="absolute anlge-bg"></div>
+        <div class="container">
+            <div class="row v-center">
+                <div class="col-xs-12 col-md-7 header-text">
+                    <h2>It’s all about Promoting your Business</h2>
+                    <p>รับสร้างร้านค้าออนไลน์ด้วยมาเจนโต้โดนใจนักช็อปด้วยระบบซื้อขายขั้นเทพอยากมีร้านค้าออนไลน์ด้วยระบบ Magento เราช่วยคุณได้</p>
+                    <a href="#" class="button white">Watch video</a>
+                </div>
+                <div class="hidden-xs hidden-sm col-md-5 text-right">
+                    <div class="screen-box screen-slider">
+                        <div class="item">
+                            <img src="images/screen-1.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/screen-2.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/screen-3.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/screen-4.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/screen-5.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Slider Header-area/-->
 
     <section class="gray-bg section-padding" id="service-page">
         <div class="container">
@@ -12,7 +44,7 @@ include 'header.php' ;
                 <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
                     <div class="page-title">
                         <h2>Our Service</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
+                        <p>รับทำเว็ปไซต์ ออกแบบ ดีไซน์ รวมถึง online marketing ครบวงจรเพื่อช่วยให้ธุรกิจคุณไปได้ไกลยิ่งขึ้น</p>
                     </div>
                 </div>
             </div>
@@ -21,7 +53,7 @@ include 'header.php' ;
                     <div class="panel-group" id="accordion">
                         <div class="panel">
                             <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">Sedeiusmod tempor inccsetetur aliquatraiy?</a>
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">WEDSITE DESIGN</a>
                             </h4>
                             <div id="collapse1" class="panel-collapse collapse in">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</p>
@@ -29,7 +61,7 @@ include 'header.php' ;
                         </div>
                         <div class="panel">
                             <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Tempor inccsetetur aliquatraiy?</a>
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">ONLINE MARKETING</a>
                             </h4>
                             <div id="collapse2" class="panel-collapse collapse">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</p>
@@ -37,7 +69,7 @@ include 'header.php' ;
                         </div>
                         <div class="panel">
                             <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Lorem ipsum dolor amet, consectetur adipisicing ?</a>
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">PHOTOGRAPH AND ARTWORK</a>
                             </h4>
                             <div id="collapse3" class="panel-collapse collapse">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</p>
