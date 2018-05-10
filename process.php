@@ -13,6 +13,8 @@ if ($captcha_success->success==false) {
     $data['success'] = false;
     $data['errors']  = $errors;
 
+    echo alert($data);
+
 }
 else if ($captcha_success->success==true) {
   //This user is verified by recaptcha
@@ -95,6 +97,7 @@ else if ($captcha_success->success==true) {
         // return all our data to an AJAX call
         //echo json_encode($data);
     }
+ echo alert($data);
 
 
 }
