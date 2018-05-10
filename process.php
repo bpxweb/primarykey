@@ -3,11 +3,14 @@
 
 $secret="6LeatlUUAAAAAMcI2Bb37x_dHO3W05gq2S2m28Gt";
 $response=$_POST["captcha"];
-
+$errors = array(); // array to hold validation errors
+$data   = array(); // array to pass back data
 $verify=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$secret}&response={$response}");
 $captcha_success=json_decode($verify);
 if ($captcha_success->success==false) {
   //This user was not verified by recaptcha.
+    $data['success'] = false;
+    $data['errors']  = $errors;
 
 }
 else if ($captcha_success->success==true) {
@@ -17,8 +20,7 @@ else if ($captcha_success->success==true) {
     $mail = new PHPMailer();
     $subjectPrefix = '[Contact via website]';
     //$emailTo       = '<patpjr@gmail.com>';
-    $errors = array(); // array to hold validation errors
-    $data   = array(); // array to pass back data
+    
     if($_SERVER['REQUEST_METHOD'] === 'POST') {
         $name    = stripslashes(trim($_POST['name']));
         $email   = stripslashes(trim($_POST['email']));
