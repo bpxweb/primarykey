@@ -27,17 +27,13 @@ Ajax Contact Form
             'email' : $('input[name="form-email"]').val(),
             'subject' : $('input[name="form-subject"]').val(),
             'message' : $('textarea[name="form-message"]').val()
-
-
         };
-alert(grecaptcha.getResponse());
+
         // process the form
         $.ajax({
             type : 'POST',
             url  : 'process.php',
-            data : { formData,
-                    captcha: grecaptcha.getResponse()
-            },
+            data : formData,
             dataType : 'json',
             encode : true
         }).done(function (data) {
@@ -62,10 +58,7 @@ alert(grecaptcha.getResponse());
                     $('#message-field').addClass('has-error');
                     $('#message-field').find('.col-lg-10').append('<span class="help-block">' + data.errors.message + '</span>');
                 }
-                if (data.errors.captcha) {
-                    $('#message-field').addClass('has-error');
-                    $('#message-field').find('.col-lg-10').append('<span class="help-block">' + data.errors.captcha + '</span>');
-                }
+                
 
             } else {
                 // display success message
