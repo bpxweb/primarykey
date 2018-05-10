@@ -54,7 +54,7 @@
                                     document.getElementById("btn_submit").disabled = false;  
                                 }
                              </script>
-                             <div id="form-g-recaptcha" name="form-g-recaptcha" class="g-recaptcha" data-sitekey="6LeatlUUAAAAAL4am4SXtq1KedNC72HG7Mv5CsPI"></div>
+                             <div  class="g-recaptcha" data-sitekey="6LeatlUUAAAAAL4am4SXtq1KedNC72HG7Mv5CsPI"></div>
                             <button type="sibmit" id ="btn_submit" class="button">Submit</button>
                         </form>
                     </div>
