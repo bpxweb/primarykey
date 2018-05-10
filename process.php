@@ -9,6 +9,7 @@ $verify=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secre
 $captcha_success=json_decode($verify);
 if ($captcha_success->success==false) {
   //This user was not verified by recaptcha.
+    $errors['captcha'] = 'YOU ARE SPAM!';
     $data['success'] = false;
     $data['errors']  = $errors;
 
@@ -92,12 +93,14 @@ else if ($captcha_success->success==true) {
             
         }
         // return all our data to an AJAX call
-        echo json_encode($data);
+        //echo json_encode($data);
     }
 
 
 }
 
+// return all our data to an AJAX call
+        echo json_encode($data);
 
 
 ?>
