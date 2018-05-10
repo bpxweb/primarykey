@@ -30,7 +30,7 @@ Ajax Contact Form
 
 
         };
-
+alert(grecaptcha.getResponse());
         // process the form
         $.ajax({
             type : 'POST',
