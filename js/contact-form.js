@@ -26,8 +26,7 @@ Ajax Contact Form
             'name' : $('input[name="form-name"]').val(),
             'email' : $('input[name="form-email"]').val(),
             'subject' : $('input[name="form-subject"]').val(),
-            'message' : $('textarea[name="form-message"]').val(),
-            'captcha': grecaptcha.getResponse()
+            'message' : $('textarea[name="form-message"]').val()
 
 
         };
@@ -36,7 +35,9 @@ Ajax Contact Form
         $.ajax({
             type : 'POST',
             url  : 'process.php',
-            data : formData,
+            data : { formData,
+                    captcha: grecaptcha.getResponse()
+            },
             dataType : 'json',
             encode : true
         }).done(function (data) {
