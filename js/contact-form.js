@@ -26,7 +26,10 @@ Ajax Contact Form
             'name' : $('input[name="form-name"]').val(),
             'email' : $('input[name="form-email"]').val(),
             'subject' : $('input[name="form-subject"]').val(),
-            'message' : $('textarea[name="form-message"]').val()
+            'message' : $('textarea[name="form-message"]').val(),
+            'captcha': grecaptcha.getResponse()
+
+
         };
 
         // process the form
@@ -58,7 +61,10 @@ Ajax Contact Form
                     $('#message-field').addClass('has-error');
                     $('#message-field').find('.col-lg-10').append('<span class="help-block">' + data.errors.message + '</span>');
                 }
-
+                if (data.errors.captcha) {
+                    $('#message-field').addClass('has-error');
+                    $('#message-field').find('.col-lg-10').append('<span class="help-block">' + data.errors.captcha + '</span>');
+                }
 
             } else {
                 // display success message
