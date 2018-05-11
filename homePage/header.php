@@ -58,12 +58,12 @@
             <!--Logo/-->
             <nav class="collapse navbar-collapse" id="primary-menu">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#home-page">Home</a></li>
-                    <li><a href="#service-page">Service</a></li>
-                    <li><a href="#feature-page">Features</a></li>
-                    <li><a href="#pricing-page">Pricing</a></li>
-                    <li><a href="#portfolio-page">Portfolio</a></li>
-                    <li><a href="#contact-page">Contact</a></li>
+                    <li class="active"><a href="#home-header-section">Home</a></li>
+                    <li><a href="#service-section">Service</a></li>
+                    <li><a href="#feature-section">Features</a></li>
+                    <li><a href="#pricing-section">Pricing</a></li>
+                    <li><a href="#portfolio-section">Portfolio</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
                 </ul>
             </nav>
         </div>
