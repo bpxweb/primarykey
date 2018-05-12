@@ -44,7 +44,6 @@
     <br>
     <div class="g-recaptcha" data-sitekey="6LeatlUUAAAAAL4am4SXtq1KedNC72HG7Mv5CsPI"></div>
     <br>
-    <input type="submit" />
-  </form>
+     <button type="submit" class="button">Submit</button>
 </body>
 
