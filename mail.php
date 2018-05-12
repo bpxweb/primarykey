@@ -1,4 +1,8 @@
 <?php
+
+ echo '<script language="javascript">';
+echo 'alert("111")';
+echo '</script>';
 $name=stripslashes($_POST["name"]);
 $email=stripslashes($_POST["email"]);
 $message=stripslashes($_POST["message"]);
