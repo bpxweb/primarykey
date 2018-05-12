@@ -35,7 +35,7 @@
 </head>
 <body>
 
-  <form id="contactForm">
+  <form action="mail.php" id="contactForm">
     <input type="text" id="name" placeholder="Your name..."/>
     <br>
     <input type="text" id="email" placeholder="Your email..."/>
