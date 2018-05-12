@@ -34,12 +34,7 @@
     <![endif]-->
 </head>
 <body>
-<?php
-    echo '<script language="javascript">';
-echo 'alert("message successfully sent")';
-echo '</script>';
 
-?>
   <form id="contactForm">
     <input type="text" id="name" placeholder="Your name..."/>
     <br>
