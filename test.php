@@ -34,6 +34,8 @@
     <![endif]-->
 </head>
 <body>
+
+    <?php echo alert('fff'); ?>
   <form id="contactForm">
     <input type="text" id="name" placeholder="Your name..."/>
     <br>
