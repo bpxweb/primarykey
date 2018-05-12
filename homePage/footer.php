@@ -7,7 +7,7 @@
                     <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
                         <div class="page-title">
                             <h2>Contact with us</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
+                            <p>สอบถามข้อมูล</p>
                         </div>
                     </div>
                 </div>
@@ -18,15 +18,15 @@
                                 <div class="side-icon">
                                     <img src="images/location-arrow.png" alt="">
                                 </div>
-                                <p><strong>Address: </strong> Box 564, Disneyland <br />USA</p>
+                                <p><strong>Address: </strong> 263 Atsawaphichet17, Atsawaphichet Road, Talingchan, Bangkok<br />Thailand</p>
                             </div>
                             <div class="side-icon-box">
                                 <div class="side-icon">
                                     <img src="images/phone-arrow.png" alt="">
                                 </div>
                                 <p><strong>Telephone: </strong>
-                                    <a href="callto:8801812726495">+8801812726495</a> <br />
-                                    <a href="callto:8801687420471">+8801687420471</a>
+                                    <a href="callto:8801812726495">+66922769595</a> <br />
+                                    <a href="callto:8801687420471">+66841477150</a>
                                 </p>
                             </div>
                             <div class="side-icon-box">
@@ -34,8 +34,8 @@
                                     <img src="images/mail-arrow.png" alt="">
                                 </div>
                                 <p><strong>E-mail: </strong>
-                                    <a href="mailto:youremail@example.com">youremail@example.com</a> <br />
-                                    <a href="mailto:youremail@example.com">example@mail.com</a>
+                                    <a href="mailto:youremail@example.com">primarykeyme@gmail.com</a> <br />
+                                    <a href="mailto:youremail@example.com">primarykey@primarykey.me</a>
                                 </p>
                             </div>
                         </address>
@@ -78,7 +78,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 text-center">
-                        <p>&copy;Copyright 2018 All right resurved.  This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com">Colorlib</a></p>
+                        <p>Primary Key &copy;Copyright 2018 All right reserved.</p>
                     </div>
                 </div>
             </div>
