@@ -69,7 +69,7 @@
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-6">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id corrupti architecto consequuntur, laborum quaerat sed nemo temporibus unde, beatae vel.</p>
+                        <p>รับทำเว็ปไซต์ ออกแบบ ดีไซน์ รวมถึง online marketing ครบวงจรเพื่อช่วยให้ธุรกิจคุณไปได้ไกลยิ่งขึ้น</p>
                     </div>
                 </div>
             </div>
