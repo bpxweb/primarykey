@@ -1,3 +1,9 @@
+
+<?php
+include('route.php');
+?> 
+
+
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -14,7 +20,7 @@
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
     <!-- Plugin-CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo $path; ?>css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/themify-icons.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -61,7 +67,7 @@
                     <li class="active"><a href="#home-header-section">Home</a></li>
                     <li><a href="#service-section">Service</a></li>
                     <li><a href="#feature-section">Features</a></li>
-                    <li><a href="#pricing-section">Pricing</a></li>
+                    <li><a href="#package-section">Website Packages</a></li>
                     <li><a href="#portfolio-section">Portfolio</a></li>
                     <li><a href="#contact-section">Contact</a></li>
                 </ul>

@@ -1,19 +1,19 @@
 <?php
 
 // header
-include 'homePage/header.php';
+include 'header.php';
 
-include 'homePage/homeTop.php';
+include 'page/homePage/homeTop.php';
 
-include 'homePage/homeService.php';
+include 'page/homePage/homeService.php';
 
-include 'homePage/homeFeature.php';
+include 'page/homePage/homeFeature.php';
 
-include 'homePage/homePricing.php';
+include 'page/homePage/homePricing.php';
 
-include 'homePage/homrPortfolio.php';
+include 'page/homePage/homrPortfolio.php';
 
 // footer
-include 'homePage/footer.php' ;
+include 'footer.php' ;
 
 ?>
