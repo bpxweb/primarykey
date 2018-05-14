@@ -22,6 +22,7 @@
     <!-- Main-Stylesheets -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-custom.css"> <!-- primary key style -->
     <link rel="stylesheet" href="css/responsive.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>

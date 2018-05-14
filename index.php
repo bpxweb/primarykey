@@ -11,7 +11,7 @@ include 'homePage/homeFeature.php';
 
 include 'homePage/homePricing.php';
 
-include 'homePage/homrPortfolio.php';
+include 'homePage/homePortfolio.php';
 
 // footer
 include 'homePage/footer.php' ;
