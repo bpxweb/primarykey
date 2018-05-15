@@ -6,8 +6,8 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
                         <div class="page-title">
-                            <h2>Contact with us</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
+                            <h2>ติดต่อเรา</h2>
+                            <p>ลูกค้าสามารถเลือกติดต่อเราได้ตลอด 24 ชั่วโมงผ่านทางช่องทางที่หลากหลาย</p>
                         </div>
                     </div>
                 </div>
@@ -18,7 +18,7 @@
                                 <div class="side-icon">
                                     <img src="images/location-arrow.png" alt="">
                                 </div>
-                                <p><strong>Address: </strong> Box 564, Disneyland <br />USA</p>
+                                <p><strong>Address: </strong> Atsawa Phichet Rd., Khwaeng Chim Phli, Khet Taling Chan<br />Bangkok 10170</p>
                             </div>
                             <div class="side-icon-box">
                                 <div class="side-icon">
@@ -34,8 +34,15 @@
                                     <img src="images/mail-arrow.png" alt="">
                                 </div>
                                 <p><strong>E-mail: </strong>
-                                    <a href="mailto:youremail@example.com">youremail@example.com</a> <br />
-                                    <a href="mailto:youremail@example.com">example@mail.com</a>
+                                    <a href="mailto:youremail@example.com">primarykey@primarykey.me</a> <br />
+                                </p>
+                            </div>
+                            <div class="side-icon-box">
+                                <div class="side-icon">
+                                    <img src="images/custom/LINE_SOCIAL_Circle_PNG/LINE_SOCIAL_Circle_typeE.png" alt="">
+                                </div>
+                                <p><strong>Line ID: </strong>
+                                    patpjr<br />
                                 </p>
                             </div>
                         </address>
