@@ -13,7 +13,7 @@
                 <div class="panel-group" id="accordion">
                     <div class="panel">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">WEDSITE DESIGN</a>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">WEBSITE DESIGN</a>
                         </h4>
                         <div id="collapse1" class="panel-collapse collapse in">
                             <p><h2>BUSINESS PACKAGE</h2><br>
