@@ -4,9 +4,12 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div id="caption_slide" class="carousel slide caption-slider" data-ride="carousel">
-                        <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
-                            <div class="page-title">
-                                <h2>WEBSITE DESIGN</h2>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                                <div class="page-title">
+                                    <h3>Our Service</h3>
+                        
+                                </div>
                             </div>
                         </div>
                         <!-- Indicators -->
