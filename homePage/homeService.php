@@ -13,9 +13,9 @@
                 <div class="panel-group" id="accordion">
                     <div class="panel">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">ONLINE MARKETING</a>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">ONLINE MARKETING</a>
                         </h4>
-                        <div id="collapse2" class="panel-collapse collapse">
+                        <div id="collapse1" class="panel-collapse collapse in">
                             <p> <h4>GOOGLE ADWORDS</h4>
                                 โปรโมทเว็บ โปรโมทสินค้า ผ่าน Google Search Engine อันดับ 1 ของโลก การตลาดที่มาแรงที่สุดในปัจจุบัน เพราะนอกจากจะทำให้สินค้าของคุณไปอยู่ต่อหน้าคนที่มีความต้องการอย่างตรงที่สุดแล้ว ยังมีต้นทุนที่ถูกที่สุดอีกด้วย เมื่อเทียบกับการโฆษณาผ่านทางสื่อโทรทัศน์ นิตยสาร หรือ Banner  <br> <br> 
 
@@ -26,9 +26,9 @@
                     </div>
                     <div class="panel">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">PHOTOGRAPH AND ARTWORK</a>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">PHOTOGRAPH AND ARTWORK</a>
                         </h4>
-                        <div id="collapse3" class="panel-collapse collapse">
+                        <div id="collapse2" class="panel-collapse collapse">
                             <p><h4>PHOTOGRAPH</h4> 
                                 บริการถ่ายภาพ สินค้าในแบบฉากปรกติ / ฉากขาว<br>
                                 ไดคัทภาพสินค้า สำหรับลงเว็บไซต์<br><br>
@@ -39,8 +39,6 @@
                                 <br><br>
                                 สินค้าและบริการของคุณมีข้อดี จุดเด่นอะไรบ้าง หรือช่วงนี้คุณมีโปรโมชั่นอะไร การจะอธิบายให้ผู้คนในยุคดิจิตอลที่มองภาพแต่ละภาพแค่ไม่กี่วินาทีนั้นเป็นเรื่องยาก ดังนั้นการออกแบบแบนเนอร์ (Banner) จึงเป็นที่นิยมอย่างมากในปัจจุบัน เพราะการสื่อสารด้วยภาพสามารถดึงดูดความสนใจได้มากกว่าสิ่งอื่น และสามารถสื่อสารให้ผู้บริการโภคเข้าใจสินค้าและแบรนด์ของคุณได้ง่ายขึ้น
                             </p>
-
-                         
                         </div>
                     </div>
                     
