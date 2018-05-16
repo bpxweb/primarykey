@@ -1,6 +1,14 @@
    <section class="angle-bg sky-bg section-padding"  id="pricing-section">
         <div class="container">
             <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                    <div class="page-title">
+                        <h2>WEB DESIGN</h2>
+                        <p>รับทำเว็ปไซต์ ออกแบบ ดีไซน์ รวมถึงบริการ online marketing ครบวงจรเพื่อช่วยให้ธุรกิจคุณไปได้ไกลยิ่งขึ้น</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-xs-12">
                     <div id="caption_slide" class="carousel slide caption-slider" data-ride="carousel">
                         <div class="carousel-inner" role="listbox">
@@ -16,9 +24,9 @@
                                 เกี่ยวกับเรา (About) <br>
                                 สินค้าและบริการ (Products & Service) <br>
                                 ข่าวสาร (หรือผลงาน) (News & Events or Reference Project)<br> 
-                                ติดต่อเรา (Contact Us)<br>
+                                ติดต่อเรา (Contact Us)<br><br>
 2. ระบบจัดการหลังร้าน<br>
-ระบบจัดการแบนเนอร์สไลด์หน้าแรก ระบบจัดการข่าวสาร (หรือผลงานลูกค้าได้) ส่งแบบฟอร์มติดต่อเข้าอีเมล์ ระบบตรวจสอบสถิติคนเข้าชม (Google Analytics)
+ระบบจัดการแบนเนอร์สไลด์หน้าแรก ระบบจัดการข่าวสาร (หรือผลงานลูกค้าได้) ส่งแบบฟอร์มติดต่อเข้าอีเมล์ ระบบตรวจสอบสถิติคนเข้าชม (Google Analytics)<br><br>
 3. จดโดเมน .com , .org , .net<br><br>
 <h3>ราคา 20,000 บาท</h3></p>
                                         </div>
@@ -42,10 +50,20 @@
                                 <div class="v-center">
                                     <div class="col-xs-12 col-md-6">
                                         <div class="caption-title" data-animation="animated fadeInUp">
-                                            <h2>Easy to use</h2>
+                                            <h2>E-Commerce Package</h2>
                                         </div>
                                         <div class="caption-desc" data-animation="animated fadeInUp">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
+                                            <p>1. ออกแบบเว็บไซต์ให้สามารถสั่งซื้อสินค้าออนไลน์ได้<br>
+                                                หน้าหลัก (Home) <br>
+                                                เกี่ยวกับเรา (About) <br>
+                                                สินค้า (Products)<br>
+                                                ข่าวสารและโปรโมชั่น (News & Promotion) <br>
+                                                ขั้นตอนการสั่งซื้อ (How to Buy) <br>
+                                                ติดต่อเรา (Contact Us)<br><br>
+                                                2. ระบบจัดการหลังร้าน<br>
+                                                ระบบจัดการแบนเนอร์สไลด์หน้าแรก ระบบจัดการข่าวสารและโปรโมชั่นได้ ระบบจัดการสมาชิก และสินค้า ระบบชำระเงินแบบแจ้งโอนและตัดบัตรเครดิต ระบบตรวจสอบสถิติคนเข้าชม<br><br>
+                                                3. จดโดเมน .com , .org , .net <br><br>
+                                                <h3>ราคา 69,000 บาท</h3></p>
                                         </div>
                                         <div class="caption-button" data-animation="animated fadeInUp">
                                             <a href="#" class="button">Read more</a>
@@ -67,10 +85,11 @@
                                 <div class="v-center">
                                     <div class="col-xs-12 col-md-6">
                                         <div class="caption-title" data-animation="animated fadeInUp">
-                                            <h2>Easy to customize</h2>
+                                            <h2>Customised Package</h2>
                                         </div>
                                         <div class="caption-desc" data-animation="animated fadeInUp">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
+                                            <p>ท่านสามารถติดต่อโดยตรงเพื่อแจ้งขอบเขตงาน ลองรับทุกความคิดที่คุณต้องการ<br>
+                                            (ราคาขึ้นอยู่กับขอบเขตงาน)</p>
                                         </div>
                                         <div class="caption-button" data-animation="animated fadeInUp">
                                             <a href="#" class="button">Read more</a>
