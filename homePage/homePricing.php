@@ -11,7 +11,16 @@
                                             <h2>Business Package</h2>
                                         </div>
                                         <div class="caption-desc" data-animation="animated fadeInUp">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
+                                            <p>1.ออกแบบเว็บไซต์ให้องค์กรของคุณด้วยเมนูมาตรฐาน<br>
+                                หน้าหลัก (Home) <br>
+                                เกี่ยวกับเรา (About) <br>
+                                สินค้าและบริการ (Products & Service) <br>
+                                ข่าวสาร (หรือผลงาน) (News & Events or Reference Project)<br> 
+                                ติดต่อเรา (Contact Us)<br>
+2. ระบบจัดการหลังร้าน<br>
+ระบบจัดการแบนเนอร์สไลด์หน้าแรก ระบบจัดการข่าวสาร (หรือผลงานลูกค้าได้) ส่งแบบฟอร์มติดต่อเข้าอีเมล์ ระบบตรวจสอบสถิติคนเข้าชม (Google Analytics)
+3. จดโดเมน .com , .org , .net<br><br>
+<h3>ราคา 20,000 บาท</h3></p>
                                         </div>
                                         <div class="caption-button" data-animation="animated fadeInUp">
                                             <a href="#" class="button">Read more</a>
