@@ -16,12 +16,12 @@
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">WEBSITE DESIGN</a>
                         </h4>
                         <div id="collapse1" class="panel-collapse collapse in">
-                            <p><h4>BUSINESS PACKAGE</h4><br>
+                            <p><h4>BUSINESS PACKAGE</h4>
                                 ออกแบบเว็บไซต์ให้องค์กรของคุณด้วยเมนูมาตรฐาน<br>
-                                <h4>E-COMMERCE PACKAGE</h4><br>
+                                <h4>E-COMMERCE PACKAGE</h4>
                                 ออกแบบเว็บไซต์ให้สามารถสั่งซื้อสินค้าออนไลน์ได้<br>
-                                <h4>CUSTOMISED PACKAGE</h4><br>
-                                 สามารถติดต่อโดยตรงเพื่อแจ้งขอบเขตงาน ลองรับทุกความคิดที่คุณต้องการ<br>
+                                <h4>CUSTOMISED PACKAGE</h4>
+                                 สามารถติดต่อโดยตรงเพื่อแจ้งขอบเขตงาน ลองรับทุกความคิดที่คุณต้องการ
                            
                                
                                 </p>
