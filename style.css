@@ -177,6 +177,8 @@ input:-webkit-autofill:focus {
     background: linear-gradient(to bottom, #75cbe7 0%, #138fc2 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cbe7', endColorstr='#138fc2', GradientType=0);
     color: #ffffff;
+    padding-top: 10px;
+
 }
 
 .gray-bg {

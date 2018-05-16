@@ -13,10 +13,21 @@
                 <div class="panel-group" id="accordion">
                     <div class="panel">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">WEDSITE DESIGN</a>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">WEBSITE DESIGN</a>
                         </h4>
                         <div id="collapse1" class="panel-collapse collapse in">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</p>
+                            <p><h2>BUSINESS PACKAGE</h2><br>
+                            1. ออกแบบเว็บไซต์ให้องค์กรของคุณด้วยเมนูมาตรฐาน<br>
+                                หน้าหลัก (Home) <br>
+                                เกี่ยวกับเรา (About) <br>
+                                สินค้าและบริการ (Products & Service) <br>
+                                ข่าวสาร (หรือผลงาน) (News & Events or Reference Project)<br> 
+                                ติดต่อเรา (Contact Us)<br>
+2. ระบบจัดการหลังร้าน
+ระบบจัดการแบนเนอร์สไลด์หน้าแรก ระบบจัดการข่าวสาร (หรือผลงานลูกค้าได้) ส่งแบบฟอร์มติดต่อเข้าอีเมล์ ระบบตรวจสอบสถิติคนเข้าชม (Google Analytics)
+3. จดโดเมน .com , .org , .net
+ราคา 20,000 บาท
+</p>
                         </div>
                     </div>
                     <div class="panel">
