@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
                 <div class="page-title">
-                    <h2>Our Services</h2>
+                    <h2>ADDITIONAL SERVICES</h2>
                     <p>รับทำเว็ปไซต์ ออกแบบ ดีไซน์ รวมถึง online marketing ครบวงจรเพื่อช่วยให้ธุรกิจคุณไปได้ไกลยิ่งขึ้น</p>
                 </div>
             </div>
@@ -11,22 +11,6 @@
         <div class="row">
             <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
                 <div class="panel-group" id="accordion">
-                    <div class="panel">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">WEBSITE DESIGN</a>
-                        </h4>
-                        <div id="collapse1" class="panel-collapse collapse in">
-                            <p><h4>BUSINESS PACKAGE</h4>
-                                ออกแบบเว็บไซต์ให้องค์กรของคุณด้วยเมนูมาตรฐาน<br>
-                                <h4>E-COMMERCE PACKAGE</h4>
-                                ออกแบบเว็บไซต์ให้สามารถสั่งซื้อสินค้าออนไลน์ได้<br>
-                                <h4>CUSTOMISED PACKAGE</h4>
-                                 สามารถติดต่อโดยตรงเพื่อแจ้งขอบเขตงาน ลองรับทุกความคิดที่คุณต้องการ
-                           
-                               
-                                </p>
-                        </div>
-                    </div>
                     <div class="panel">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">ONLINE MARKETING</a>
