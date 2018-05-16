@@ -4,14 +4,7 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div id="caption_slide" class="carousel slide caption-slider" data-ride="carousel">
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
-                                <div class="page-title">
-                                    <h3>Our Service</h3>
                         
-                                </div>
-                            </div>
-                        </div>
                         <!-- Indicators -->
                         <ol class="carousel-indicators caption-indector">
                             <li data-target="#caption_slide" data-slide-to="0" class="active">
@@ -24,7 +17,6 @@
                                 <strong>Customised Package </strong>เว็บไซต์เฉพาะทาง
                             </li>
                         </ol>
-                        <br>
                         <br>
                         <div class="carousel-inner" role="listbox">
                             <div class="item active row">
