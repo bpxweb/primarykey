@@ -35,7 +35,15 @@
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">ONLINE MARKETING</a>
                         </h4>
                         <div id="collapse2" class="panel-collapse collapse">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</p>
+                            <p> <h2>GOOGLE ADWORDS</h2>โปรโมทเว็บ โปรโมทสินค้า ผ่าน Google Search Engine อันดับ 1 ของโลก การตลาดที่มา
+         แรงที่สุดในปัจจุบัน เพราะนอกจากจะทำให้สินค้าของท่านไปอยู่ต่อหน้าคนที่มีความต้องการอย่างตรงที่สุดแล้ว ยังมีต้นทุน
+         ที่ถูกที่สุดอีกด้วย เมื่อเทียบกับการโฆษณาผ่านทางสื่อโทรทัศน์ นิตยสาร หรือ Banner  <br> 
+
+ 
+                   เมื่อลูกค้า หรือ "กลุ่มเป้าหมาย" Search หาสินค้าที่ท่านขายบน Google ก็จะพบ Website  
+         ของท่านได้ในทันที พื้นที่ด้านบนสุดหรือพื้นที่ด้านขวามือหรือพื้นที่ด้านล่าง  (พื้นที่แถบสีที่เขียนว่า ลิงก์ผู้สนับสนุน หรือ Sponsor link) นั่นเท่ากับว่าธุรกิจของท่านได้เข้าถึงกลุ่มคนที่มีความต้องการแล้ว ติดกูเกิ้ลหน้าแรกรวดเร็วใน 24 ชั่วโมง
+
+</p>
                         </div>
                     </div>
                     <div class="panel">
