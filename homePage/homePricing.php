@@ -1,16 +1,21 @@
    <section class="angle-bg sky-bg section-padding"  id="pricing-section">
         <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
-                    <div class="page-title">
-                        <h2>WEB DESIGN</h2>
-                        <p>รับทำเว็ปไซต์ ออกแบบ ดีไซน์ รวมถึงบริการ online marketing ครบวงจรเพื่อช่วยให้ธุรกิจคุณไปได้ไกลยิ่งขึ้น</p>
-                    </div>
-                </div>
-            </div>
+           
             <div class="row">
                 <div class="col-xs-12">
                     <div id="caption_slide" class="carousel slide caption-slider" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators caption-indector">
+                            <li data-target="#caption_slide" data-slide-to="0" class="active">
+                                <strong>Startup Package </strong>consectetur adipisicing elit.
+                            </li>
+                            <li data-target="#caption_slide" data-slide-to="1">
+                                <strong>Business Package </strong>consectetur adipisicing elit.
+                            </li>
+                            <li data-target="#caption_slide" data-slide-to="2">
+                                <strong>E-Commerce Package</strong>consectetur adipisicing elit.
+                            </li>
+                        </ol>
                         <div class="carousel-inner" role="listbox">
                             <div class="item active row">
                                 <div class="v-center">
@@ -108,18 +113,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators caption-indector">
-                            <li data-target="#caption_slide" data-slide-to="0" class="active">
-                                <strong>Startup Package </strong>consectetur adipisicing elit.
-                            </li>
-                            <li data-target="#caption_slide" data-slide-to="1">
-                                <strong>Business Package </strong>consectetur adipisicing elit.
-                            </li>
-                            <li data-target="#caption_slide" data-slide-to="2">
-                                <strong>E-Commerce Package</strong>consectetur adipisicing elit.
-                            </li>
-                        </ol>
+                        
                     </div>
                 </div>
             </div>
