@@ -5,7 +5,7 @@
             <div class="row v-center">
                 <div class="col-xs-12 col-md-7 header-text">
                     <h2>It’s all about Promoting your Business</h2>
-                    <h4>รับทำเว็ปไซต์ ออกแบบ ดีไซน์ รวมถึง online marketing ครบวงจรเพื่อช่วยให้ธุรกิจคุณไปได้ไกลยิ่งขึ้น</h4>
+                    <p>รับทำเว็ปไซต์ ออกแบบ ดีไซน์ รวมถึง online marketing ครบวงจรเพื่อช่วยให้ธุรกิจคุณไปได้ไกลยิ่งขึ้น</p>
                     <a href="#" class="button white">Watch video</a>
                 </div>
                 <div class="hidden-xs hidden-sm col-md-5 text-right">
