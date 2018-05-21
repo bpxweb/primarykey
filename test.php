@@ -35,13 +35,15 @@
 </head>
 <body>
 
- 
 
       <form id="contactForm">
     <input type="text" id="name" placeholder="Your name..."/>
     <input type="text" id="email" placeholder="Your email..."/>
     <textarea id="message" placeholder="Your message..."></textarea>
-    <div class="g-recaptcha" data-sitekey="6LeatlUUAAAAAL4am4SXtq1KedNC72HG7Mv5CsPI" <span class="html-attribute-name">data-callback</span>="<span class="html-attribute-value">whenCaptchaChecked</span>"></div>
+    <div class="g-recaptcha" data-sitekey="6LeatlUUAAAAAL4am4SXtq1KedNC72HG7Mv5CsPI" >
+        <span class="html-attribute-name">data-callback</span>
+        <span class="html-attribute-value">whenCaptchaChecked</span>
+    </div>
     <input type="submit" id="submitMessage" disabled="disabled" class="disabled" />
   </form>
 </body>
