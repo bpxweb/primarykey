@@ -8,7 +8,7 @@
   <script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
 </head>
 <body>
-  <form id="contactForm">
+  <form action="mail.php" id="contactForm" method="post" >
     <input type="text" id="name" placeholder="Your name..."/>
     <br>
     <input type="text" id="email" placeholder="Your email..."/>
