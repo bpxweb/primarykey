@@ -35,16 +35,14 @@
 </head>
 <body>
 
-  <form action="mail.php" id="contactForm">
+ 
+
+      <form id="contactForm">
     <input type="text" id="name" placeholder="Your name..."/>
-    <br>
     <input type="text" id="email" placeholder="Your email..."/>
-    <br>
     <textarea id="message" placeholder="Your message..."></textarea>
-    <br>
-    <div class="g-recaptcha" data-sitekey="6LeatlUUAAAAAL4am4SXtq1KedNC72HG7Mv5CsPI"></div>
-    <br>
-     <button type="submit" class="button">Submit</button>
-      </form>
+    <div class="g-recaptcha" data-sitekey="6LeatlUUAAAAAL4am4SXtq1KedNC72HG7Mv5CsPI" <span class="html-attribute-name">data-callback</span>="<span class="html-attribute-value">whenCaptchaChecked</span>"></div>
+    <input type="submit" id="submitMessage" disabled="disabled" class="disabled" />
+  </form>
 </body>
 
