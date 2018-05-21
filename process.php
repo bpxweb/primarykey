@@ -54,7 +54,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Host = 'mail.primarykey.me'; // SMTP server
         $mail->Port = 587; // พอร์ท
         $mail->Username = "primarykey"; // username
-        $mail->Password = "YHmqUQ_KWY8Z_!y"; // password
+        $mail->Password = "E8_J3nvneTdGCMY"; // password
         $mail->SetFrom('primarykey@primarykey.me', 'Primary Key Website Creative');
         $mail->AddReplyTo('primarykey@primarykey.me', 'Primary Key Website Creative');
         $mail->Subject = $subject.' ติดต่อจากลูกค้า : '. $name;//รับค่า POST
