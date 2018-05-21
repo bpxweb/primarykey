@@ -1,8 +1,4 @@
-
-alert('out');
 $(document).ready(function() {
-
-  alert('in');
   var contactForm = $("#contactForm");
   //We set our own custom submit function
   contactForm.on("submit", function(e) {
