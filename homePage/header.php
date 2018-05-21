@@ -26,7 +26,7 @@
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
       <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
-  <script src="contact.js"></script>
+    <script src="js/contact-form.js"></script>
     <!--[if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
