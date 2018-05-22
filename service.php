@@ -1,3 +1,10 @@
+<?php
+
+// header
+include 'homePage/header.php';
+?>
+<div class = "first-row">
+</div>
 <section class="gray-bg section-padding" id="service-section">
     <div class="container">
         <div class="row">
@@ -26,7 +33,7 @@
                     </div>
                     <div class="panel">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true">PHOTOGRAPH AND ARTWORK</a>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" >PHOTOGRAPH AND ARTWORK</a>
                         </h4>
                         <div id="collapse2" class="panel-collapse collapse">
                             <p><h4>PHOTOGRAPH</h4> 
@@ -47,3 +54,15 @@
         </div>
     </div>
 </section>
+
+
+
+
+<?php
+
+// footer
+include 'homePage/footer.php' ;
+
+
+
+?>

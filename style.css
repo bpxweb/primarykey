@@ -294,6 +294,13 @@ input:-webkit-autofill:focus {
 *Mainmenu-area
 **/
 
+.first-row{
+    background-color: #61bfe0;
+    height: 83px;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
 .mainmenu-area {
     position: fixed;
     left: 0;

@@ -1,5 +1,5 @@
 
-    <footer class="footer-area relative sky-bg" id="contact-page">
+    <footer class="footer-area relative sky-bg" id="contact-section">
         <div class="absolute footer-bg"></div>
         <div class="footer-top">
             <div class="container">

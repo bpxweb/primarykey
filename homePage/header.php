@@ -28,10 +28,8 @@
     <script src='https://www.google.com/recaptcha/api.js'></script>
       <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
     <script src="js/contact-form.js"></script>
-<<<<<<< HEAD
-=======
     <script src="contact.js"></script>
->>>>>>> master
+<!--<<<<<< HEAD =======>>>>>>> master
     <!--[if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -65,11 +63,11 @@
             <!--Logo/-->
             <nav class="collapse navbar-collapse" id="primary-menu">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#home-header-section">Home</a></li>
-                    <li><a href="#pricing-section">Packages</a></li>
-                    <li><a href="#service-section">Service</a></li>
-                    <li><a href="#feature-section">Features</a></li>
-                    <li><a href="#portfolio-section">Portfolio</a></li>
+                    <li class="active"><a href="http://www.primarykey.me">Home</a></li>
+                    <li><a href="about.php">About us</a></li>
+                    <li><a href="packages.php">Packages</a></li>
+                    <li><a href="service.php">Service</a></li>
+                    <li><a href="portfolio.php">Portfolio</a></li>
                     <li><a href="#contact-section">Contact</a></li>
                 </ul>
             </nav>

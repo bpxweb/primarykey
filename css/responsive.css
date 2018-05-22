@@ -32,6 +32,13 @@
         -ms-flex-pack: justify;
         justify-content: space-between;
     }
+    .first-row {
+        background-color: #61bfe0;
+        height: 71px;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
 }
 
 
@@ -90,6 +97,13 @@
     }
     .mainmenu-area .logo {
         margin-left: 15px;
+    }
+    .first-row {
+        background-color: #61bfe0;
+        height: 71px;
+        left: 0;
+        top: 0;
+        width: 100%;
     }
 }
 
