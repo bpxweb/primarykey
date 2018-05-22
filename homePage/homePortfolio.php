@@ -14,7 +14,7 @@
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="single-team">
                     <div class="team-photo">
-                        <img src="images/custom/mangomania" alt="">
+                        <img src="images/custom/mangomania.png" alt="">
                     </div>
                     <h4>Mango Mania</h4>
                     <h6>www.mangomania.in.th</h6>
