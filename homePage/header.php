@@ -9,7 +9,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Title -->
-    <title>Home</title>
+    <title>PRIMARY KEY WEBSITE CREATIVE</title>
     <!-- Place favicon.ico in the root directory -->
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
@@ -27,7 +27,8 @@
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
       <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
-  <script src="contact.js"></script>
+    <script src="js/contact-form.js"></script>
+    <script src="contact.js"></script>
     <!--[if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -62,9 +63,9 @@
             <nav class="collapse navbar-collapse" id="primary-menu">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#home-header-section">Home</a></li>
+                    <li><a href="#pricing-section">Packages</a></li>
                     <li><a href="#service-section">Service</a></li>
                     <li><a href="#feature-section">Features</a></li>
-                    <li><a href="#pricing-section">Pricing</a></li>
                     <li><a href="#portfolio-section">Portfolio</a></li>
                     <li><a href="#contact-section">Contact</a></li>
                 </ul>
