@@ -12,6 +12,7 @@
             <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
                 <div class="panel-group" id="accordion">
                     <div class="panel">
+                        
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">ONLINE MARKETING</a>
                         </h4>
@@ -26,7 +27,7 @@
                     </div>
                     <div class="panel">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true">PHOTOGRAPH AND ARTWORK</a>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" >PHOTOGRAPH AND ARTWORK</a>
                         </h4>
                         <div id="collapse2" class="panel-collapse collapse">
                             <p><h4>PHOTOGRAPH</h4> 
