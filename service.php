@@ -9,6 +9,7 @@ include 'homePage/header.php';
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+
                 <div class="page-title">
                     <h2>ADDITIONAL SERVICES</h2>
                     <p>รับทำเว็ปไซต์ ออกแบบ ดีไซน์ รวมถึง online marketing ครบวงจรเพื่อช่วยให้ธุรกิจคุณไปได้ไกลยิ่งขึ้น</p>
@@ -22,6 +23,9 @@ include 'homePage/header.php';
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">ONLINE MARKETING</a>
                         </h4>
+                        <div class="team-photo text-center">
+                        <img src="images/custom/gadwords.png" alt="">
+                        </div>
                         <div id="collapse1" class="panel-collapse collapse in">
                             <p> <h4>GOOGLE ADWORDS</h4>
                                 โปรโมทเว็บ โปรโมทสินค้า ผ่าน Google Search Engine อันดับ 1 ของโลก การตลาดที่มาแรงที่สุดในปัจจุบัน เพราะนอกจากจะทำให้สินค้าของคุณไปอยู่ต่อหน้าคนที่มีความต้องการอย่างตรงที่สุดแล้ว ยังมีต้นทุนที่ถูกที่สุดอีกด้วย เมื่อเทียบกับการโฆษณาผ่านทางสื่อโทรทัศน์ นิตยสาร หรือ Banner  <br> <br> 

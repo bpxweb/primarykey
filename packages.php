@@ -9,7 +9,15 @@ include 'homePage/header.php';
 
    <section class="angle-bg  section-padding"  id="pricing-section">
         <div class="container">
-           
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+
+                    <div class="page-title">
+                        <h2>WEBSITE PACKAGES</h2>
+                        <p>รับทำเว็ปไซต์ ออกแบบ ดีไซน์ รวมถึง online marketing ครบวงจรเพื่อช่วยให้ธุรกิจคุณไปได้ไกลยิ่งขึ้น</p>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-xs-12">
                     <div id="caption_slide" class="carousel slide caption-slider" data-ride="carousel">
@@ -119,6 +127,29 @@ include 'homePage/header.php';
                 </div>
             </div>
         </div>
+    </section>
+    <section>
+        <div class="container">
+        <div class="item active row">
+                                <div class="v-center">
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo one" data-animation="animated fadeInRight">
+                                            <img src="images/custom/magento.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo one" data-animation="animated fadeInRight">
+                                            <img src="images/custom/WordPress_logo.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo two" data-animation="animated fadeInRight">
+                                            <img src="images/custom/woocommerce-logo.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    </div>
     </section>
 
 
